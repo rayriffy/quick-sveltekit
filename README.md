@@ -27,8 +27,7 @@ Deployment
     3. Create a role at **Roles > Create** with `deployment.*` permissions
     4. Create user at **Users > Add** with service account email, and role that created earlier
 3. Add those secrets into GitHub via **Settings > Secrets and variables > Actions**
-4. Allow GitHub Actions to push deployment image to registry by go to **Settings > Actions > General** and click **Read and write permissions** at **Workflow permissions** section
-5. Push a commit to trigger deployment or mannualy trigger it yourself in Actions tab
+4. Push a commit to trigger deployment or mannualy trigger it yourself in Actions tab
 
 Local deployment troubleshooting
 ---
